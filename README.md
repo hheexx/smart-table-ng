@@ -1,10 +1,10 @@
 # smart-table-ng
 
-[![Build Status](https://travis-ci.org/smart-table/smart-table-ng.svg?branch=master)](https://travis-ci.org/smart-table/smart-table-ng)
+Fork of https://github.com/smart-table/smart-table-ng
 
-[Smart-Table](https://github.com/smart-table/smart-table-core) binding for Angular (v >= 2).
+[Smart-Table](https://github.com/smart-table/smart-table-core) binding for Angular (v >= 15).
 
-``npm install --save smart-table-ng``
+``npm install --save @codezen/smart-table-ng``
 
 Follow the tutorials for more details:
 
