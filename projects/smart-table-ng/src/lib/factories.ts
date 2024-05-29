@@ -7,7 +7,7 @@ import {
     SmartTable as ISmartTable
 } from 'smart-table-core';
 import {Subscription} from 'rxjs/internal/Subscription';
-import {ObservableInput, of as observableOf, from as observableFrom} from 'rxjs/index';
+import {ObservableInput, of as observableOf, from as observableFrom} from 'rxjs';
 
 export const from = <T>(data: ObservableInput<T[]>,
                         tableState = new TableState(),

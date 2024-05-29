@@ -1,7 +1,7 @@
 import {Directive, Input, OnInit, OnDestroy, ElementRef} from '@angular/core';
 import {SmartTable} from './smart-table.service';
 import {filterDirective as filter, FilterOperator, FilterType} from 'smart-table-core';
-import {fromEvent, Subscription} from 'rxjs/index';
+import {fromEvent, Subscription} from 'rxjs';
 import {debounceTime, distinctUntilChanged, map} from 'rxjs/operators';
 
 @Directive({

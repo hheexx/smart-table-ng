@@ -2,7 +2,7 @@ import {Directive, Input, OnInit, OnDestroy, ElementRef} from '@angular/core';
 import {SmartTable} from './smart-table.service';
 import {searchDirective as search} from 'smart-table-core';
 import {debounceTime, distinctUntilChanged, map} from 'rxjs/operators';
-import {Subscription, fromEvent} from 'rxjs/index';
+import {Subscription, fromEvent} from 'rxjs';
 
 @Directive({
     selector: '[stSearch]',

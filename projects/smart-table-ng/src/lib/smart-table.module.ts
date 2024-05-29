@@ -28,7 +28,7 @@ import {TableState} from './table-state';
     providers: []
 })
 export class SmartTableModule {
-    static forRoot(): ModuleWithProviders {
-        return {ngModule: SmartTableModule, providers: [TableState]};
-    }
+    // static forRoot(): ModuleWithProviders {
+    //     return {ngModule: SmartTableModule, providers: [TableState]};
+    // }
 }

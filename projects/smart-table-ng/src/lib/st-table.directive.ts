@@ -60,11 +60,11 @@ export class StTableDirective<T> implements OnInit, OnDestroy {
     }
 
     ngOnInit() {
-        this.displayHandler = handleDisplayChange.bind(this);
-        this.sortHandler = handleSortChange.bind(this);
-        this.filterHandler = handleFilterChange.bind(this);
-        this.sliceHandler = handleSliceChange.bind(this);
-        this.execHandler = handleExecChange.bind(this);
+        this.displayHandler = handleDisplayChange.bind(this as any);
+        this.sortHandler = handleSortChange.bind(this as any);
+        this.filterHandler = handleFilterChange.bind(this as any);
+        this.sliceHandler = handleSliceChange.bind(this as any);
+        this.execHandler = handleExecChange.bind(this as any);
         this.table.onDisplayChange(this.displayHandler);
         this.table.on(StEvents.TOGGLE_SORT, this.sortHandler);
         this.table.on(StEvents.FILTER_CHANGED, this.filterHandler);
