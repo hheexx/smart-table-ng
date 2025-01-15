@@ -5,7 +5,8 @@ import {sortDirective as sort, SortDirection, SortConfiguration} from 'smart-tab
 
 @Directive({
     selector: '[stSort]',
-    exportAs: 'stSort'
+    exportAs: 'stSort',
+    standalone: false
 })
 export class StSortDirective<T> implements OnInit, OnDestroy {
     private _directive: any;

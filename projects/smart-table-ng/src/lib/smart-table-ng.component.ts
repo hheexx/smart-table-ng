@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-smart-table-ng',
-  template: `
+    selector: 'lib-smart-table-ng',
+    template: `
     <p>
       smart-table-ng works!
     </p>
   `,
-  styles: [
-  ]
+    styles: [],
+    standalone: false
 })
 export class SmartTableNgComponent {
 

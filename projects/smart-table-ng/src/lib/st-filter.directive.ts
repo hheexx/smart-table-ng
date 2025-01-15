@@ -6,7 +6,8 @@ import {debounceTime, distinctUntilChanged, map} from 'rxjs/operators';
 
 @Directive({
     selector: '[stFilter]',
-    exportAs: 'stFilter'
+    exportAs: 'stFilter',
+    standalone: false
 })
 export class StFilterDirective<T> implements OnInit, OnDestroy {
     private _directive: any;

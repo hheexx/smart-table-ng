@@ -39,7 +39,8 @@ function handleExecChange<T>(this: StTableDirective<T>, state: WorkingIndicator)
 
 @Directive({
     selector: '[stTable]',
-    exportAs: 'stTable'
+    exportAs: 'stTable',
+    standalone: false
 })
 export class StTableDirective<T> implements OnInit, OnDestroy {
     items: DisplayedItem<T>[] = [];

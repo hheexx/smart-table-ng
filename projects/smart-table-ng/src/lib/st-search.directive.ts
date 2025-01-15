@@ -6,7 +6,8 @@ import {Subscription, fromEvent} from 'rxjs';
 
 @Directive({
     selector: '[stSearch]',
-    exportAs: 'stSearch'
+    exportAs: 'stSearch',
+    standalone: false
 })
 export class StSearchDirective<T> implements OnInit, OnDestroy {
     private _directive: any;
