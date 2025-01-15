@@ -6,8 +6,13 @@ Fork of https://github.com/smart-table/smart-table-ng
 
 # Versions
 19.1.0 - Update to standalone
+
 19.0.0 - Angular 19
+
 18.0.0 - Angular 18
+
 17.0.0 - Angular 17
+
 16.0.0 - Angular 16
+
 15.0.0 - Angular 15
