@@ -10,8 +10,7 @@ interface SummaryOutput {
 
 @Directive({
     selector: '[stPagination]',
-    exportAs: 'stPagination',
-    standalone: false
+    exportAs: 'stPagination'
 })
 export class StPaginationDirective<T> implements OnInit, OnDestroy {
     private _directive: any;

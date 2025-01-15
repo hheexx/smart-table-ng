@@ -1,4 +1,4 @@
-export * from './smart-table.module';
+export * from './smart-table-ng.component';
 export * from './smart-table.service';
 export * from './st-filter.directive';
 export * from './st-pagination.directive';

@@ -7,8 +7,7 @@ import { Component } from '@angular/core';
       smart-table-ng works!
     </p>
   `,
-    styles: [],
-    standalone: false
+    styles: []
 })
 export class SmartTableNgComponent {
 
